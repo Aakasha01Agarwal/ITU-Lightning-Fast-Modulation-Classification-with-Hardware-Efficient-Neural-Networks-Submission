@@ -1,6 +1,6 @@
 # Lightning-Fast Modulation Classification with Hardware-Efficient Neural Networks submission
 
-This repository contains the submission of our team (Team Velocity) for the problem statement [Lightning-Fast Modulation Classification with Hardware-Efficient Neural Networks](https://challenge.aiforgood.itu.int/match/matchitem/34) in the **ITU AI/ML in 5G Challenge**.
+This repository contains the submission of our team (**Team Velocity**) for the problem statement [Lightning-Fast Modulation Classification with Hardware-Efficient Neural Networks](https://challenge.aiforgood.itu.int/match/matchitem/34) in the **ITU AI/ML in 5G Challenge**.
 
 
 ## Prerequisites
