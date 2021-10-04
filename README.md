@@ -29,7 +29,4 @@ The sandbox was tested on Ubuntu, but the containerized setup should work on mos
 3. Run `./run_docker.sh` inside `submission/` to launch the Jupyter notebook server
    - Alternatively for experimenting: Run `./run_docker.sh bash` to launch an interactive shell
 4. Connect to `http://HOSTNAME:JUPYTER_PORT` from a browser and login with password "radioml"
-
-## Getting help
-Connect with the challenge organizers and other participants on [GitHub discussion](https://github.com/Xilinx/brevitas-radioml-challenge-21/discussions). For questions related to quantization-aware training with Brevitas, there is also a separate Gitter channel: [![Gitter](https://badges.gitter.im/xilinx-brevitas/community.svg)](https://gitter.im/xilinx-brevitas/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
- 
+5. Run the code block by block.
