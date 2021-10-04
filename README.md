@@ -1,6 +1,7 @@
-# Sandbox: Lightning-Fast Modulation Classification with Hardware-Efficient Neural Networks
+# Lightning-Fast Modulation Classification with Hardware-Efficient Neural Networks submission
 
-This repository provides a Docker-based environment to get started with the [Lightning-Fast Modulation Classification with Hardware-Efficient Neural Networks](https://challenge.aiforgood.itu.int/match/matchitem/34) problem statement of the [**ITU AI/ML in 5G Challenge**](https://aiforgood.itu.int/ai-ml-in-5g-challenge/). The sandbox environment includes PyTorch and Brevitas and serves a Jupyter notebook that guides you through definition, training, and evaluation of an exemplary quantized CNN model.
+This repository contains the submission of our team (Team Velocity) for the problem statement [Lightning-Fast Modulation Classification with Hardware-Efficient Neural Networks](https://challenge.aiforgood.itu.int/match/matchitem/34) in the **ITU AI/ML in 5G Challenge**.
+
 
 ## Prerequisites
 
