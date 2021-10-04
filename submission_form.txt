@@ -1,0 +1,55 @@
+### INFO ###
+The format for the submission must be a zipfile including:
+ - This filled out form
+ - Full source code for end-to-end reproducibility
+ - Dockerfile-based environment setup
+   (we suggest to base your submission on this sandbox repository)
+ - Exported .onnx model with batch size = 1
+ - Trained .pth checkpoint
+
+### FILL IN ###
+# Overall test accuracy reached:
+-> 56.07%
+
+# Inference cost score reached:
+-> 0.321127
+
+# Complete output dictionary printed by the inference_cost() function:
+-> {'discount_sparsity': True,
+ 'mem_o_FLOAT32': 53664.0,
+ 'mem_w_SCALEDINT6': 76079.0,
+ 'op_mac_FLOAT32_SCALEDINT6': 1050.0,
+ 'op_mac_SCALEDINT4_SCALEDINT6': 224758.0,
+ 'op_mac_SCALEDUINT5_SCALEDINT6': 7233256.0,
+ 'total_bops': 222593472.0,
+ 'total_mem_o_bits': 1717248.0,
+ 'total_mem_w_bits': 456474.0,
+ 'unsupported': "{'Pad'}"}
+
+# Path to .onnx model within this zipfile:
+-> "/ITU/submission/notebooks/model/ONNX/model_export.onnx"
+
+# Path to .pth checkpoint within this zipfile:
+-> "ITU/submission/notebooks/models/model.pth"
+
+# Link to GitHub repository containing your code 
+# (to be made public after submission deadline):
+-> https://github.com/Aakasha01Agarwal/ITU-Lightning-Fast-Modulation-Classification-with-Hardware-Efficient-Neural-Networks-Submission
+
+# Instructions for reproduction:
+-> 1) Install the docker engine on your system.
+   2) Go to "/ITU/submission" and run chmod u+x run-docker.sh
+   3) Run ./run-docker.sh
+   4) Connect to http://HOSTNAME:JUPYTER_PORT from a browser and login with password "radioml"
+   5) The jupyter Notebook enviornment will now open up.
+   6) You will have to put the Dateset in either
+      i) /ITU/submission, in which case the dataset will be mounted at "/workspace/submission,  
+              OR
+      ii) Anywhere, then set the environment variable DATASET_DIR before launching "run_docker.sh" 
+          to mount it under "/workspace/dataset". 
+   7) Load our submitted model, 'model.pth' which is present at "/ITU/submission/notebooks/models/model.pth"
+   8) Once the model is loaded run inferences and calculate the inference cost.
+   9) All the necessary details are mentioned in the jupyter notebook file.	
+
+# Further comments:
+-> 
