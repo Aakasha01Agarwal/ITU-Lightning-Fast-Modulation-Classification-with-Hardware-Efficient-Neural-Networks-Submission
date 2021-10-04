@@ -25,7 +25,7 @@ The sandbox was tested on Ubuntu, but the containerized setup should work on mos
    - `NETRON_PORT`: Override default port (8081)
    - `JUPYTER_PASSWD_HASH`: Override default password ("radioml")
    - `LOCALHOST_URL`: Set the IP/URL of the machine if you don't access it via `localhost`
-3. Run `./run_docker.sh` inside `sandbox/` to launch the Jupyter notebook server
+3. Run `./run_docker.sh` inside `submission/` to launch the Jupyter notebook server
    - Alternatively for experimenting: Run `./run_docker.sh bash` to launch an interactive shell
 4. Connect to `http://HOSTNAME:JUPYTER_PORT` from a browser and login with password "radioml"
 
