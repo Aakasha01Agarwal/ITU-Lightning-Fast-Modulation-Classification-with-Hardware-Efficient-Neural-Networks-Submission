@@ -1,0 +1,12 @@
+{
+  "discount_sparsity": true,
+  "mem_o_FLOAT32": 53664.0,
+  "mem_w_SCALEDINT6": 76079.0,
+  "op_mac_FLOAT32_SCALEDINT6": 1050.0,
+  "op_mac_SCALEDINT4_SCALEDINT6": 224758.0,
+  "op_mac_SCALEDUINT5_SCALEDINT6": 7233256.0,
+  "total_bops": 222593472.0,
+  "total_mem_o_bits": 1717248.0,
+  "total_mem_w_bits": 456474.0,
+  "unsupported": "{'Pad'}"
+}
